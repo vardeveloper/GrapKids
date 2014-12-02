@@ -1,0 +1,52 @@
+div#eyNavigation
+{
+    float:left;
+    display:inline;
+    margin-left:200px;
+}
+div#eyNavigation ul{border:0; margin:0; padding:0;}
+
+div#eyNavigation ul li{
+    border:0; margin:0; padding:0;
+    font-size:11px;
+    list-style:none;
+    margin-right:2px;
+    float:left;
+}
+div#eyNavigation ul a{
+    border:solid 1px #9aafe5;
+    margin-right:2px;
+}
+div#eyNavigation ul li.eyNavPrevOff,
+div#eyNavigation ul li.eyNavNextOff {
+    border:solid 1px #DEDEDE;
+    color:#888888;
+    display:block;
+    float:left;
+    font-weight:bold;
+    margin-right:2px;
+    padding:3px 4px;
+}
+div#eyNavigation ul li.eyNavNext a,
+div#eyNavigation ul li.eyNavPrev a{
+    font-weight:bold;
+}
+div#eyNavigation ul li.eyNavActive{
+    background:#2e6ab1;
+    color:#FFFFFF;
+    font-weight:bold;
+    display:block;
+    float:left;
+    padding:4px 6px;
+}
+div#eyNavigation a:link,
+div#eyNavigation a:visited {
+    color:#0e509e;
+    display:block;
+    float:left;
+    padding:3px 6px;
+    text-decoration:none;
+}
+div#eyNavigation a:hover{
+    border:solid 1px #0e509e
+}

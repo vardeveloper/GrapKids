@@ -1,0 +1,515 @@
+
+.container {
+    margin: 0 auto;
+    width: 1000px;
+}
+body {
+    color: #2583AD;
+    font-family: Tahoma,Arial,Verdana,Georgia,"Helvetica Neue",Helvetica,sans-serif;
+    font-size: 0.82em;
+    margin: 0;
+}
+a {
+    color: #2583AD;
+    text-decoration: none;
+}
+div.span {
+    float: left;
+    margin-right: 0;
+}
+div.last {
+    margin-right: 0;
+}
+small {
+    font-size: 9px;
+}
+div.adm_header {
+    background-color: #E4F2FD;
+    height: 50px;
+}
+div.adm_header h1 {
+    float: left;
+    font-family: Georgia;
+    font-size: 2em;
+    height: 34px;
+    margin-left: 10px;
+    margin-top: 0;
+    padding-top: 10px;
+    width: 400px;
+}
+div.adm_menu {
+    background-color: #E4F2FD;
+    border-bottom: 1px solid #CCCCCC;
+}
+div.adm_menu ul {
+    display: inline;
+    float: left;
+    margin-bottom: -1px;
+    margin-left: 5px;
+    width: 990px;
+}
+div.adm_menu ul li {
+    background-color: #CEE1EF;
+    display: inline;
+    float: left;
+    font-weight: bolder;
+    height: 15px;
+    margin-right: 7px;
+    margin-top: 3px;
+    padding: 5px;
+}
+div.adm_menu ul li a {
+    display: block;
+}
+div.adm_menu ul li.selected {
+    background-color: #FFFFFF;
+    border-left: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+    border-top: 1px solid #CCCCCC;
+}
+div.adm_menu ul li:hover {
+    background-color: #9ACDF8;
+}
+div.adm_menu ul li:active {
+    background-color: #8EBADB;
+}
+div.adm_pagecontent h2.contenttitle {
+    border-bottom: 1px solid #DADADA;
+    font-size: 1.3em;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+    padding-top: 20px;
+}
+div.adm_pagecontent {
+    border-bottom: 1px solid #CCCCCC;
+    border-left: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    width: 988px;
+}
+div.adm_footer p {
+    font-size: 0.68em;
+    text-align: center;
+}
+table.data td {
+    padding: 6px 3px 4px;
+}
+table.data thead td {
+    background-color: #464646;
+    border-left: 1px solid #969696;
+    color: #D7D7D7;
+    font-weight: bolder;
+    padding-bottom: 8px;
+}
+table.data tbody td {
+    border-bottom: 1px solid #CCCCCC;
+    border-left: 1px solid #F4F9FD;
+    padding: 10px 3px 8px;
+}
+table.data tbody tr:hover td {
+    background-color: #E4F2FD;
+}
+.c {
+    text-align: center;
+}
+a.adm_btn_ok, a.adm_btn_alert {
+    background-color: #F5F5F5;
+    border-color: #EEEEEE #DEDEDE #DEDEDE #EEEEEE;
+    border-style: solid;
+    border-width: 1px;
+    display: inline;
+    font-family: Tahoma;
+    padding: 3px 4px;
+}
+a.adm_btn_ok:hover {
+    background-color: #CAE0BA;
+    border: 1px solid #CAE0BA;
+    color: #529214;
+}
+a.adm_btn_alert:hover {
+    background-color: #D54E21;
+    border: 1px solid #D54E21;
+    color: #FDFDFD;
+}
+.err {
+    background-color: #FFD5D5;
+    border: 1px solid red;
+}
+.error {
+    color: #CC0000;
+    display: inline;
+    float: left;
+    font-size: 0.78em;
+    line-height: 16px;
+    margin-left: 10px;
+    margin-top: 1px;
+}
+.adm_btn {
+    background-color: #CEE1EF;
+    border: 1px solid #80B5D0;
+    color: #224466;
+    cursor: pointer;
+    font-weight: bolder;
+    padding: 3px;
+}
+.adm_btn2 {
+    margin-right: 10px !important;
+}
+.adm_btn:hover {
+    background-color: #2583AD;
+    border-color: #328AB2;
+    color: #FFFFFF;
+}
+a.enlace:hover {
+    color: #224466;
+}
+label {
+    font-weight: 700;
+}
+fieldset {
+    border: 1px solid #CCCCCC;
+    margin: 0 0 1.5em;
+    padding: 1.4em;
+}
+legend {
+    font-size: 1.2em;
+    font-weight: 700;
+}
+input.text, input.title, textarea, select {
+    border: 1px solid #BBBBBB;
+    color: #595959;
+    margin: 0.2em 0;
+}
+input.text:focus, input.title:focus, textarea:focus, select:focus {
+    border: 1px solid #666666;
+}
+input.text, input.title {
+    padding: 3px;
+}
+input.title {
+    font-size: 1.5em;
+}
+textarea {
+    height: 250px;
+    padding: 5px;
+    width: 390px;
+}
+div.adm_header div.adm_img {
+    background: url("../img/admin/logo.png") no-repeat scroll left center transparent;
+    float: left;
+    height: 44px;
+    margin-left: 20px;
+    margin-top: 0;
+    width: 125px;
+}
+div.adm_login {
+    background-color: #E4F2FD;
+    border: 1px solid #2583AD;
+    margin: 100px auto;
+    min-height: 100px;
+    padding: 20px;
+    width: 300px;
+}
+div.adm_login table {
+    margin-left: 50px;
+    width: 250px;
+}
+div.adm_login input.text {
+    border: 1px solid #BBBBBB;
+    color: #595959;
+    font-size: 14px;
+    padding: 2px;
+}
+div.adm_login table td {
+    font-weight: bolder;
+    padding: 2px;
+}
+p.titulo {
+    border-bottom: 1px solid #DADADA;
+    color: #666666;
+    float: left;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-weight: bolder;
+    height: 16px;
+    padding-top: 10px;
+    width: 980px;
+}
+p.subtitulo {
+    background-color: #464646;
+    color: #FFFFFF;
+    float: left;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    font-weight: bolder;
+    height: 20px;
+    padding-left: 20px;
+    padding-top: 7px;
+    width: 960px;
+}
+form.forminsert {
+    float: left;
+    margin: 10px;
+}
+form.forminsert table.stats {
+    float: left;
+    width: 960px;
+}
+form.forminsert table.stats td {
+    padding-top: 2px;
+    vertical-align: top;
+}
+form.forminsert table.stats td.rig {
+    padding-right: 10px;
+    padding-top: 8px;
+    text-align: right;
+    width: 200px;
+}
+form.forminsert table.stats td.lat {
+    padding-bottom: 20px;
+    padding-top: 8px;
+}
+form.forminsert table.stats td input:focus, form.forminsert textarea:focus {
+    background-color: #F5FEF5;
+    border: 1px solid #53741F;
+}
+form.forminsert table.stats textarea.mceEditor {
+    height: 350px;
+    width: 900px !important;
+}
+span.exp {
+    float: left;
+    margin-left: 5px;
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 130px;
+}
+tr.first td {
+    background-color: #F9F9F9;
+}
+tr.second td {
+    background-color: #FFFFFF;
+}
+tr.active td {
+    background-color: #E9FEEB;
+}
+tr.vencio td {
+    background-color: #FFD5D5;
+}
+table#simple td a.deta:hover {
+    color: #164F67;
+    font-weight: bolder;
+}
+table#simple td a.deta {
+    color: #2583AD;
+    text-decoration: none;
+}
+div#men2 div.detalle {
+    background-color: #EAF3FA;
+    float: left;
+    min-height: 310px;
+    width: 980px;
+}
+div#men2 .des {
+    background-color: #FFFFFF;
+    border: 1px solid #DADADA;
+    color: #464646;
+    float: left;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    margin: 2px 10px;
+    padding: 6px;
+    width: 95%;
+}
+div#men2 .des span.ti {
+    color: #164F67;
+    font-weight: bolder;
+    text-align: left;
+}
+div#men2 p.peq {
+    width: 430px;
+}
+div#men2 p.aum {
+    float: left;
+    height: 20px;
+    width: 100px;
+}
+div#men2 div.img {
+    float: left;
+    width: 480px;
+}
+div#men2 div.img ul {
+    float: left;
+    width: 470px;
+}
+div#men2 div.img ul li {
+    border: 1px solid #DADADA;
+    float: left;
+    margin-left: 6px;
+    margin-right: 6px;
+    min-height: 130px;
+    padding: 2px 2px 5px;
+    text-align: center;
+    width: 100px;
+}
+div#men2 div.adi {
+    float: left;
+    width: 450px;
+}
+div#otherform {
+    display: none;
+}
+table.stats td.rig2 {
+    height: 25px;
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-top: 10px;
+    text-align: right;
+    width: 168px;
+}
+table.stats td.let2 {
+    padding-bottom: 20px;
+}
+table.data tbody td.uno {
+    background-color: #2583AD;
+    border: 1px solid #7D7D7D;
+}
+table.data tbody td.dos {
+    background-color: #CEE1EF;
+    border: 1px solid #7D7D7D;
+}
+div.adm_header div.adm {
+    float: right;
+    font-weight: 700;
+    height: 20px;
+    padding-top: 3px;
+    width: 270px;
+}
+textarea.dias {
+    border: 1px solid #BBBBBB !important;
+    height: 80px;
+    width: 500px;
+}
+.op_revisado td {
+    background-color: #F4FDD7;
+}
+.op_nuevo td {
+}
+#agenda_lista_usuarios ul li {
+    border-bottom: 1px solid #EAF3FA;
+    padding: 5px;
+}
+div#resultado_usuarios {
+    margin-top: 10px;
+}
+div#resultado_usuarios ul li a {
+    border-bottom: 1px solid #97C9EA;
+    display: block;
+    padding: 5px;
+}
+div#resultado_usuarios ul li a:hover {
+    background-color: #F5FAFE;
+}
+div.error, div.notice, div.success {
+    border: 2px solid #DDDDDD;
+    margin-bottom: 1em;
+    padding: 0.8em;
+}
+div.error {
+    background: none repeat scroll 0 0 #FBE3E4;
+    border-color: #FBC2C4;
+    color: #8A1F11;
+}
+div.notice {
+    background: none repeat scroll 0 0 #FFF6BF;
+    border-color: #FFD324;
+    color: #514721;
+}
+div.success {
+    background: none repeat scroll 0 0 #E6EFC2;
+    border-color: #C6D880;
+    color: #264409;
+}
+div.error a {
+    color: #8A1F11;
+}
+div.notice a {
+    color: #514721;
+}
+div.success a {
+    color: #264409;
+}
+div.proimagenes {
+    border-bottom: 1px solid #C3C3C3;
+    float: left;
+}
+div.proima {
+    float: left;
+    padding: 5px 0;
+    width: 100px;
+}
+div.probotones {
+    float: left;
+    padding-top: 20px;
+    width: 160px;
+}
+div.span span.error2 {
+    color: #CC0000;
+    font-size: 0.8em;
+}
+ul.imagenesporcolor {
+    float: left;
+    width: 420px !important;
+}
+ul.imagenesporcolor li {
+    margin-top: 8px;
+}
+div#all {
+    font-size: 11px;
+    height: 20px;
+    left: 735px;
+    position: absolute;
+    top: 30px;
+    width: 250px;
+}
+div#all div.fecha {
+    float: left;
+    width: 150px;
+}
+div#all div.jclock {
+    float: left;
+}
+table.resul tr div.ordenar {
+    cursor: pointer;
+}
+table.resul tr div.ordenar:hover {
+    color: #FFFFFF;
+}
+table.resul tr div.desc {
+    background: url("../img/admin/desc.gif") no-repeat scroll right center transparent;
+    padding-right: 15px;
+}
+table.resul tr div.asc {
+    background: url("../img/admin/asc.gif") no-repeat scroll right center transparent;
+    padding-right: 15px;
+}
+table.resul tr div.bg {
+    background: url("../img/admin/bg.gif") no-repeat scroll right center transparent;
+    padding-right: 15px;
+}
+div.super {
+    float: left;
+    position: relative;
+    width: 980px;
+}
+div.adm_pagecontent div.adm_datahead, div.adm_pagecontent div.adm_datafooter {
+    background-color: #EAF3FA;
+    margin-bottom: 2px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-top: 5px;
+    width: 970px;
+}
+

@@ -1,0 +1,13 @@
+<script type="text/javascript" src="yoxview-init.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $(".yoxview").yoxview({
+        skin: "top_menu",
+        backgroundColor: '#D1EAF9',
+        videoSize: { maxwidth: 720, maxheight: 560 },
+        });
+    });
+</script>
+
+http://shoogledesigns.com/demos/use_jquery_to_create_an_easy_to_browse_screencast_library.html
+http://shoogledesigns.com/blog/blog/2010/09/27/use-jquery-to-create-an-easy-to-browse-screencast-library/

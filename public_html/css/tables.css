@@ -1,0 +1,38 @@
+table.form td{
+    padding:3px;
+}
+table.form td.lbl{
+    font-size:.82em;
+    font-weight:bolder;
+    text-align:right;
+    padding-right:4px;
+    vertical-align:top;
+    padding-top:4px;
+}
+
+.l{
+    text-align:left;
+}
+.r{
+    text-align:right;
+}
+
+.c{
+    text-align:center;
+}
+
+.t{
+    vertical-align:top;
+}
+
+.b{
+    vertical-align:bottom;
+}
+
+.m{
+    vertical-align:middle;
+}
+
+.bld{
+    font-weight:bolder;
+}
