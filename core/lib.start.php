@@ -70,7 +70,7 @@ define('ADMIN_TPL', ADMIN_ROOT . DS . 'tpl');
 
 // Raiz de la dirección Web (url)
 
-define('BASE_WEB_ROOT', 'http://grapkids.local');
+define('BASE_WEB_ROOT', 'http://local.grapkids.com');
 
 
 
@@ -298,4 +298,3 @@ function __autoload($cls) {
 
 $controller->start();
 
-?>
