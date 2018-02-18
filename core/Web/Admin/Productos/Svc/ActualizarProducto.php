@@ -10,6 +10,7 @@ class Web_Admin_Productos_Svc_ActualizarProducto
 
     private function actualizar()
     {
+        $error = array();
         if ($_POST['pro_nombre'] == '') {
             $error['pro_nombre'] = 'Ingrese Nombre';
         }

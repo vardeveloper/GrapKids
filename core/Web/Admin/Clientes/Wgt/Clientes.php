@@ -30,6 +30,7 @@ class Web_Admin_Clientes_Wgt_Clientes
         $navegador = $pager->getNavigation();
         
         $user = array();
+        $sw = null;
 
         foreach ($rows as $item) {
 

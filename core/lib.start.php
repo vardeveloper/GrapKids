@@ -192,7 +192,7 @@ $stmt->execute();
 
 $controller = new Controlador();
 
-$controller->addModule('admin');
+//$controller->addModule('admin');
 
 $controller->addModule('admin/usuarios');
 

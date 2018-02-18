@@ -22,6 +22,7 @@ class Web_Admin_Banner_Wgt_Banner
 //        print_r($rows);
 
         $banner = array();
+        $sw = null;
 
         foreach ($rows as $item) {
             if ($sw == 1) {

@@ -158,7 +158,7 @@ div#header div.menu div.link{
 }
 
 div#header div.menu div.link div.link_demas{
-    margin: 0 27px
+    margin: 0 24px
 }
 
 div#header div.menu div.link div.link_demas a{
@@ -201,14 +201,14 @@ div#menu_cuerpo ul li a {
     display: block;
     color: #fff;
     padding: 1px 0;
-    padding-left: 10px;
+    padding-left: 5px;
     line-height: 18px;
     height: 18px;
 }
 
 div#menu_cuerpo ul li a:hover{
     color: #0B3445;
-    width: 205px;
+    width: 210px;
     background-color: #FFD52E;
     /*background: url(../img/a_hover.png) no-repeat;*/
 }

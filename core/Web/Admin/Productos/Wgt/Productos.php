@@ -19,6 +19,10 @@ class Web_Admin_Productos_Wgt_Productos
     {
         Ey::addConfig('activemenu', Ey::getPrm(1));
 
+        $unidadSelected = 0;
+        $categoriaSelected = 0;
+        $order = 0;
+
         if (isset($_SESSION['filtrar']) && $_SESSION['filtrar']['seccion'] == 'producto') {
             $unidadSelected = $_SESSION['filtrar']['unidad'];
             $categoriaSelected = $_SESSION['filtrar']['categoria'];
@@ -33,7 +37,7 @@ class Web_Admin_Productos_Wgt_Productos
         $db = $obj->getAdapter();
 
         $htmlOrden = '<select name="order">';
-        if ($order != '') {
+        if (!empty($order)) {
             if ($order == 1) {
                 $select = $db->select()
                         ->from(array('pro' => 'gk_productos'), array('pro_id', 'pro_nombre', 'pro_descripcion', 'pro_precio', 'pro_estado', 'pro_destacar', 'pro_oferta'))
@@ -109,6 +113,7 @@ class Web_Admin_Productos_Wgt_Productos
         if (!is_null($rows)) {
 
             $productos = array();
+            $sw = null;
 
             foreach ($rows as $row) {
 

@@ -34,6 +34,7 @@ class Web_Admin_Usuarios_Wgt_Usuarios
 //        print_r($rows);
         
         $user = array();
+        $sw = null;
 
         foreach ($rows as $item) {
             if ($sw == 1) {

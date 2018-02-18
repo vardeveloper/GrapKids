@@ -14,6 +14,7 @@ class Web_Admin_Productos_Svc_GuardarProducto
         $rs = $obj->fetchRow($obj->select()
                                  ->where('pro_nombre=?', $_POST['pro_nombre']));
 
+        $error = array();
         if ($_POST['pro_nombre'] == '') {
             $error['pro_nombre'] = 'Ingrese Nombre';
         } else {

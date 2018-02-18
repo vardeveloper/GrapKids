@@ -16,10 +16,10 @@ class Web_Wgt_Header
 
         $smarty = new Smarty_Engine();
         $smarty->assign('cantidad', $cantidad);
-        $smarty->assign('user', $_SESSION['usr']);
-        $smarty->assign('nombre', $_SESSION['usr']['cli_nombre']);
-        $smarty->assign('apellido', $_SESSION['usr']['cli_apellido']);
-        
+        $smarty->assign('user', isset($_SESSION['usr']) ? $_SESSION['usr'] : '');
+        $smarty->assign('nombre', isset($_SESSION['usr']['cli_nombre']) ? $_SESSION['usr']['cli_nombre'] : '');
+        $smarty->assign('apellido', isset($_SESSION['usr']['cli_apellido']) ? $_SESSION['usr']['cli_apellido'] : '');
+
         return $smarty->fetch(TPL_ROOT . DS . 'wgt-header.tpl');
     }
 
