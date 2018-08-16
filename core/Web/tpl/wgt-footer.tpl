@@ -23,15 +23,14 @@
             <p>Lunes a Sabados de 9 am - 8 pm</p>
 
             <img src="{$smarty.const.BASE_WEB_ROOT}/img/title_direccion.png" alt=""/>
-            <p>Teodoro Cardenas 781</p>
-            <p>Urb. Santa Beatriz, Cercado</p>
+            <p>Av. Los Próceres Mz. R Lt. 16 APV Campoy, S.J.L.</p>
             <p>Lima - Peru</p>
 
             <img src="{$smarty.const.BASE_WEB_ROOT}/img/title_telefono.png" alt=""/>
-            <p>472 8665 / Fax : 470 1780</p>
+            <p>+51 959 289 952</p>
 
             <img src="{$smarty.const.BASE_WEB_ROOT}/img/title_email.png" alt=""/>
-            <p>grap_kids@hotmail.com</p>
+            <p>grapkids.ventas@gmail.com</p>
         </div>
         <div class="fot_bar"></div>
         <div class="l">
@@ -41,7 +40,7 @@
             <a href="javascript:winOpenMsn()"><img src="{$smarty.const.BASE_WEB_ROOT}/img/logo_msn.png" alt=""/></a>
             *}
             <p><img src="{$smarty.const.BASE_WEB_ROOT}/img/title_siguenos.png" alt=""/></p>
-            <a href="http://www.facebook.com/grapkids" target="blank"><img src="{$smarty.const.BASE_WEB_ROOT}/img/logo_facebook.png" alt=""/></a> &nbsp; &nbsp; 
+            <!--a href="http://www.facebook.com/grapkids" target="blank"><img src="{$smarty.const.BASE_WEB_ROOT}/img/logo_facebook.png" alt=""/></a--> &nbsp; &nbsp; 
             <a href="http://www.youtube.com/user/GrapKids" target="blank"><img src="{$smarty.const.BASE_WEB_ROOT}/img/logo_youtube.png" alt=""/></a>
         </div>
         <div class="fot_bar"></div>

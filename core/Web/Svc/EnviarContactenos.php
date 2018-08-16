@@ -55,9 +55,9 @@ class Web_Svc_EnviarContactenos
 
         $mail = new Zend_Mail();
         $mail->setBodyHtml($message_body);
-        $mail->setFrom('grapkids@gmail.com', 'GRAP KIDS');
-        $mail->addTo('grap_kids@hotmail.com');
-//        $mail->addBcc('grap_kids@hotmail.com');
+        $mail->setFrom('grapkids.ventas@gmail.com', 'GRAP KIDS');
+        $mail->addTo('grapkids.ventas@gmail.com');
+//        $mail->addBcc('grapkids.ventas@gmail.com');
         $mail->setSubject(Ey::utfToIso('Contacto'));
         $mail->send();
 

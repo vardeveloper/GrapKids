@@ -9,10 +9,10 @@
                     <p style="width:280px;float:left">Si desea información de nuestros productos envienos un correo indicando el nombre del producto.<br />
                        Si tienes alguna pregunta, sugerencia o comentario, llena el siguiente formulario y te responderemos con mucho agrado.<br />
                        Tendrás respuesta a tu pregunta dentro de 48 horas.<br />
-                       Para contactar nuestro Servicio de Atención al Cliente, llama al teléfono (511) 472 8665.<br />
+                       Para contactar nuestro Servicio de Atención al Cliente, llama al teléfono +51 959 289 952.<br />
                        * datos obligatorios.</p>
                     
-                    <div style="float:left;width:350px;border:solid 1px #0C70D3"><img src="{$smarty.const.BASE_WEB_ROOT}/img/fachada.jpg" width="350" alt="" /></div>
+                    <!--div style="float:left;width:350px;border:solid 1px #0C70D3"><img src="{$smarty.const.BASE_WEB_ROOT}/img/fachada.jpg" width="350" alt="" /></div-->
 
                     <div class="clear"></div>
                     
@@ -43,10 +43,11 @@
                                 </table>
                             </form>
 
-                            <div id="map">
+                            <!--div id="map">
                                 <iframe width="350" height="500" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.es/maps/ms?msa=0&amp;msid=214249144141398188769.0004b984230be9e112025&amp;ie=UTF8&amp;t=m&amp;ll=-12.076882,-77.030468&amp;spn=0.020983,0.014977&amp;z=15&amp;output=embed"></iframe><br /><br />
                                 <small style="font:normal 12px Tahoma;">Ver <a href="http://maps.google.es/maps/ms?msa=0&amp;msid=214249144141398188769.0004b984230be9e112025&amp;ie=UTF8&amp;t=m&amp;ll=-12.076882,-77.030468&amp;spn=0.020983,0.014977&amp;z=15&amp;source=embed" style="color:#0000FF;text-align:left;text-decoration:none;font:normal 12px Tahoma">Juegos Recreativos Grap Kids</a> en un mapa más grande</small>
-                            </div>
+                            </div-->
+
                         </div>
                     </div>
 

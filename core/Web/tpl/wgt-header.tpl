@@ -34,13 +34,13 @@
                 </form>
             </div>
             <div class="menu-central r">
-                &nbsp; Central Telefonica <br /> <b>(511) 472 8665 </b>
+                &nbsp; Central Telefonica <br /> <b>+51 959 289 952 </b>
             </div>
             <div class="link">
                 <div class="link_demas l"> <a href="{$smarty.const.BASE_WEB_ROOT}/nosotros"> Nosotros </a> </div>
                 <div class="link_demas l"> <a href="{$smarty.const.BASE_WEB_ROOT}/servicios"> Servicios </a> </div>
                 <div class="link_demas l"> <a href="{$smarty.const.BASE_WEB_ROOT}/clientes"> Clientes </a> </div>
-                <div class="link_demas l"> <a href="http://www.facebook.com/grapkids/photos" target="blank"> Galeria </a> </div>
+                <!--div class="link_demas l"> <a href="http://www.facebook.com/grapkids/photos" target="blank"> Galeria </a> </div-->
                 <div class="link_demas l"> <a href="http://www.youtube.com/user/GrapKids/videos" target="blank"> Videos </a> </div>
                 <div class="link_demas l"> <a href="{$smarty.const.BASE_WEB_ROOT}/contacto"> Contacto </a> </div>
             </div>
