@@ -5,11 +5,11 @@ class Web_Main extends Web_BasePage
 
     public function mainContent() 
     {
-        parent::set_title('Juegos Recreativos Grap Kids, Juegos Recreativos Infantiles, Juegos Recreativos para Niños, Juegos Recreativos Deportivos, Juegos Recreativos Peru');
+        parent::set_title('Juegos para Niños | Juegos Infantiles | Juegos Recreativos | Juegos Infantiles para Niños | Juegos Recreativos para Niños | Parques Infantiles | Fabrica de Juegos | Juegos Infantiles para Parques | Grap Kids Peru');
         parent::add_head_content('<link rel="image_src" href="'. BASE_WEB_ROOT .'/img/logo-grap-kids.jpg" />');
         parent::add_head_content('<meta name="google-site-verification" content="FBzJbIbkYTTnAEuPXiQotdt8GPh3MkNITQU9KLlekMY" />');
-        parent::add_head_content('<meta name="Keywords" content="juegos recreativos, juegos recreativos infantiles, juegos recreativos para niños, juegos recreativos deportivos, juegos recreativos peru, juegos infantiles" />');
-        parent::add_head_content('<meta name="Description" content="En GRAP KIDS ampliamos constantemente nuestra línea de Juegos Recreativos Infantiles, ofreciendo productos de alta calidad a un precio competitivo dentro del mercado." />');
+        parent::add_head_content('<meta name="Keywords" content="Juegos para Niños, Juegos Infantiles, Juegos Recreativos, Juegos Infantiles para Niños, Juegos Recreativos para Niños, Parques Infantiles, Fabrica de Juegos, Juegos Infantiles para Parques, Grap Kids Peru" />');
+        parent::add_head_content('<meta name="Description" content="En GRAP KIDS ampliamos constantemente nuestra línea de Juegos para Niños, ofreciendo productos de alta calidad a un precio competitivo dentro del mercado." />');
         parent::add_head_content('<meta name="robots" content="index, follow, all" />');
         parent::add_head_content('<meta name="revisit-after" content="7 days" />');
 //        parent::add_js_link(BASE_WEB_ROOT . '/yoxview/yoxview-init.js');
